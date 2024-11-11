@@ -12,7 +12,7 @@ generateSierpinski <- function(rows) {
   }
   mat
 }
-
+#try to see how commit looks like
 # Sample a Vertex of the n-Gon with base (0, 0) -> (1, 0)
 # n: number of vertices (e.g. n=3: Triangle)
 # Return a vector of length 2 with x and y coordinates
@@ -27,5 +27,6 @@ sampleVertex <- function(n) {
 #   * step.size = 1 --> end up at `to`
 #   * step.size = 0.5 --> halfway between `from` and `to`
 stepToVertex <- function(from, to, step.size) {
-  c(x=0, y=0)
+  c(x=1, y=1)
+  
 }
